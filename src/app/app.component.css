@@ -1,0 +1,35 @@
+/* Text Input Styles */
+.input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Slightly rounded corners */
+  width: 250px;  
+  font-size: 16px;
+  transition: box-shadow 0.3s ease; /* Add a smooth shadow transition */
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007bff; /* Blue highlight on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow effect */
+}
+
+/* Button Styles */
+.button {
+  background-color: #007bff; /* Blue background */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Add a smooth color transition */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.button:active {
+  background-color: #003d82; /* Even darker blue when clicked */
+}

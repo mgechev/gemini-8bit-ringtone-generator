@@ -1,4 +1,4 @@
-const octaves = new Array(10).fill({});
+const octaves: any[] = Array.from({ length: 9 }).map(_ => ({}));
 
 octaves[0]['A'] = 27.5;
 octaves[0]['A#'] = 29.135235094880619;
