@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build && mv dist/guess-the-drawing/browser/* docs/"
+    "deploy": "ng build && rm -rf docs && mkdir docs && mv dist/ngsynth/browser/* docs/"
   },
   "private": true,
   "dependencies": {
