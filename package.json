@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "deploy": "ng build && rm -rf docs && mkdir docs && mv dist/ngsynth/browser/* docs/"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
